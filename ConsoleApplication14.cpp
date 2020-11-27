@@ -20,7 +20,7 @@ int main()
             int o = 2*k+1;
             double p = x;
             result += a;
-            for (int i = 1; i <= (2 * k + 1); ++i){\\(2k+1)!
+            for (int i = 1; i <= (2 * k + 1); ++i){//(2k+1)!
                 l *= i;
         }
             for (int i = 1; i < o; ++i) {//x^(2k+1)
