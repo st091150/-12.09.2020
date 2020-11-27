@@ -14,19 +14,19 @@ int main()
 
     double result = 0, a = x, eps = 1e-6;
     int k = 1;
-
+ \\ a - слагаемые 
         do {
             int l = 1;
             int o = 2*k+1;
             double p = x;
             result += a;
-            for (int i = 1; i <= (2 * k + 1); ++i){
+            for (int i = 1; i <= (2 * k + 1); ++i){\\(2k+1)!
                 l *= i;
         }
-            for (int i = 1; i < o; ++i) {
+            for (int i = 1; i < o; ++i) {//x^(2k+1)
                 p *= x;
             }
-            if (k % 2 == 0 ) {
+            if (k % 2 == 0 ) { //(-1)^k
                 a =  p / l;
             }
             else {
