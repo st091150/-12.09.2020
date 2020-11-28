@@ -14,7 +14,7 @@ int main()
 
     double result = 0, a = x, eps = 1e-6;
     int k = 1;
- \\ a - слагаемые 
+ // a - слагаемыe 
         do {
             int l = 1;
             int o = 2*k+1;
